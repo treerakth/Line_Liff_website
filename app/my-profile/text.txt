@@ -1,0 +1,47 @@
+<h3 className="mt-6 text-lg font-semibold">ฝ่ายบริการลูกค้า</h3>
+<div className="space-y-2">
+    {/* Line OA AdviceClub */}
+    <div className="flex items-center justify-between cursor-pointer py-2 border-b border-gray-200"
+        onClick={() => router.push('https://line.me/R/ti/p/@361gxcxl')}>
+        <div className="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M21 12c0 4.418-4.03 8-9 8a9.732 9.732 0 01-4.255-.903L3 20l1.175-3.522A7.969 7.969 0 013 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+            </svg>
+            <span className="text-gray-800">ติดต่อสอบถาม Line OA AdviceClub</span>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" clipRule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L11.586 10 7.293 5.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" />
+        </svg>
+    </div>
+
+    {/* Privacy Policy */}
+    <div className="flex items-center justify-between cursor-pointer py-2 border-b border-gray-200"
+        onClick={() => router.push('/privacy-policy')}>
+        <div className="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h8m-8 4h6" />
+            </svg>
+            <span className="text-gray-800">นโยบายความเป็นส่วนตัว</span>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" clipRule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L11.586 10 7.293 5.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" />
+        </svg>
+    </div>
+
+    {/* Terms of Use */}
+    <div className="flex items-center justify-between cursor-pointer py-2"
+        onClick={() => router.push('/terms-of-use')}>
+        <div className="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-3-3v6m3 9h-6A9 9 0 015 12 9 9 0 0112 3h0a9 9 0 019 9 9 9 0 01-9 9z" />
+            </svg>
+            <span className="text-gray-800">เงื่อนไข และ ข้อกำหนดการใช้งาน</span>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" clipRule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L11.586 10 7.293 5.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" />
+        </svg>
+    </div>
+</div>

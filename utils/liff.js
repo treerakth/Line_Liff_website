@@ -1,6 +1,6 @@
 'use client'
 import liff from '@line/liff'
-const LIFF_ID = '2007185325-nda96ZaN'
+const LIFF_ID = '2007222856-DZYKodxY'
 export async function initializeLiff() {
   if (!liff.isInClient()) {
     if (!LIFF_ID) {
@@ -16,5 +16,10 @@ export async function initializeLiff() {
   } catch (error) {
     console.error('LIFF initialization failed:', error)
     throw error
+  }
+}
+export const logout = () => {
+  if (liff.isLoggedIn()) {
+    liff.logout();
   }
 }
